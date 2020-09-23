@@ -17,7 +17,7 @@ testLogic = () => {
   /* console.log(JSON.stringify(gameState) === JSON.stringify(["X", "", "", "", "", "", "", "", ""])) */
   /* console.log(gameState === ["X", "", "", "", "", "", "", "", ""]) */
   /* Compare above two results and research */
-  let chBit = false;
+  let chBit = true;
   const filledPlayerpos = (gameState.map((item, index) => {
     if (item === currentPlayer) {
       return index;
